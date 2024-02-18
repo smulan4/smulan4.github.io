@@ -1,0 +1,80 @@
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.post-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(128, 128, 128, 0.712);
+}
+
+.post-profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.post-profile img {
+    margin-bottom: 10px;
+    max-width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 4px rgba(128, 128, 128, 0.712);
+}
+
+.post-profile p {
+    color: rgb(57, 68, 75);
+    font-weight: bold;
+    font-size: small;
+    margin: 0; 
+    max-width: 100px; 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0
+}
+
+.post-info {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.post-message {
+    margin-top: 27px;
+    font-size: large;
+}
+
+.post-created {
+    font-size: medium;
+    color: rgb(85, 85, 85);
+}
+
+.post-text {
+    flex-grow: 1;
+}
+
+body {
+    background-color: rgb(63, 63, 63);
+}
